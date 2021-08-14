@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+}
+.footer p{
+    background-color: #fff2b2;
+    padding: 15px;
+    font-size: 1.5rem;
+    color: lightslategray;
+}
+
+
+
+.header h1{
+    padding: 20px 0px 20px 40px;
+    color: white;
+    background-color: #ffd60a;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3rem;
+}
+
+
+
+.form{
+    background-color: #fffae5;
+    position: relative;
+    margin: 20px auto;
+    padding: 10px 15px;
+    max-width: 65vw;
+}
+.form input{
+    background: #fffae5;
+    font-size: 1.8rem;
+    width: 90%;
+    margin: 5px;
+    padding: 10px;
+    border: 0px;
+}
+.form button{
+    position: absolute;
+    top: 90%;
+    right: 10%;
+    padding: 5px 15px;
+    font-size: 1.6rem;
+    border-radius: 50%;
+    background-color: #ffd60a;
+    border: 0px;
+}
+
+
+
+.section{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: unset;
+    justify-content: space-evenly;
+}
+.section div{
+    width: 300px;
+    height: 100%;
+    padding: 15px 20px;
+    background-color: #fffae5;
+    margin: 10px;
+    border-radius: 10px;
+}
+.section div:last-child{
+    margin-bottom:60px;
+}
+.section div h1{
+    margin: 5px 0px;
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+.section div p{
+    letter-spacing: 1px;
+    line-height: 25px;
+    margin-bottom: 5px;
+}
+.section div button{
+    background-color: #fffae5;
+    width: 100%;
+    text-align: start;
+    border: 0;
+    margin: 10px 0px;
+    color: #fcd721;
+    font-size: 1.2rem;
+}
+.section div button:hover{
+    cursor: pointer;
+    border: 1px solid white;
+    background-color: #fcd721;
+    color: white;
+    padding: 10px 15px;
+}
